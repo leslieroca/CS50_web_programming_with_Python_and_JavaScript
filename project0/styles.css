@@ -1,0 +1,16 @@
+form {
+    text-align: center;
+    margin: 400px 100px 100px 100px;    
+    padding: 50px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.search_links {
+    color: black;
+    padding: 20px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border: 1px solid black;
+}

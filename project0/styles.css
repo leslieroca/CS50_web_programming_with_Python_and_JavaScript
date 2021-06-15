@@ -1,17 +1,48 @@
 form {
     text-align: center;
-    font-size: 70pt;
-    margin: 300px 100px 100px 100px;    
-    padding: 50px;
-    height: 80px;
+    margin-top: 200px; 
+
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #bcc3c5cb;
+    outline: none;
+    font-size: 18px;
+    color: rgb(71, 69, 69)
+
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 42px;
 
 }
 
 .search_links {
-    color: black;
+    color: #757575;
     padding: 20px;
     position: absolute;
     right: 8px;
     top: 8px;
     
+}
+
+button {
+    padding: 5px;
+    margin: 3px;
+    background-color: #eeeaea;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+    font-size: 12px;
 }

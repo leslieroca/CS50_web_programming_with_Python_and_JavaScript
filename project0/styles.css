@@ -46,3 +46,12 @@ button {
     border-color: #f2f2f2;
     font-size: 12px;
 }
+
+.back_link {
+    color: #757575;
+    padding: 20px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    
+}

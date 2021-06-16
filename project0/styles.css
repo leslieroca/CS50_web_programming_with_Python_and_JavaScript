@@ -1,6 +1,22 @@
-form {
+
+.google_logo {
     text-align: center;
-    margin-top: 200px; 
+    margin-top: 250px;
+}
+
+.images_title {
+    color: #4285f4;
+    font: 16px arial, sans-serif;
+    position: relative;
+    left: 105px;
+    top: -20px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+form {
+    text-align: center; 
 
 }
 
@@ -36,7 +52,10 @@ input[type="submit"] {
     top: 8px;
     
 }
+
 a {
     color: #757575;
 
 }
+
+

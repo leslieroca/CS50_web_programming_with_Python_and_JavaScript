@@ -1,15 +1,4 @@
 
-.google_logo {
-    text-align: center;
-    margin-top: 250px;
-}
-
-
-form {
-    text-align: center; 
-
-}
-
 input {
     border-radius: 5px;
     padding: 10px;
@@ -32,6 +21,20 @@ input[type="submit"] {
     font-weight: bold;
     width: 150px;
     height: 42px;
+
+}
+
+.main {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20%;
+    
+}
+
+.main > .google_logo {
+    width: 272px;
+    margin: auto;
 
 }
 

@@ -1,31 +1,7 @@
-
-input {
-    border-radius: 5px;
-    padding: 10px;
-    margin: 3px;
-    height: 20px;
-    width: 500px;
-    border:1px solid #bcc3c5cb;
-    outline: none;
-    font-size: 18px;
-    color: rgb(71, 69, 69)
-
-}
-
-input[type="submit"] {
-    border-radius: 5px;
-    border: 1px solid #f2f2f2;
-    color: #757575;
-    cursor: default;
-    font-size: 15px;
-    font-weight: bold;
-    width: 150px;
-    height: 42px;
-
-}
+/* Main Search page styles  */
 
 .main {
-    width: 50%;
+    width: 70%;
     padding: 10px;
     margin: auto;
     margin-top: 20%;
@@ -38,7 +14,45 @@ input[type="submit"] {
 
 }
 
-.search_links, .back_link {
+.search_input {
+    width: 100%;
+    margin: auto;
+
+}
+
+.search_input > input {
+    border-radius: 20px;
+    width: 96%;
+    padding: 10px;
+    margin: 1px;
+    height: 20px;
+    border: 1px solid #bcc3c5cb;
+    outline: none;
+    font-size: 18px;
+    color: rgb(71, 69, 69)
+
+}
+
+.buttons {
+    padding: 15px;
+    margin-left: 25%;
+    
+}
+
+.buttons > input {
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    color: #474545;
+    cursor: default;
+    font-size: 14px;
+    width: 130px;
+    height: 35px;
+
+}
+
+/* Links to Images and Advanced Search links styles */
+
+.top_right_links {
     padding: 20px;
     margin: 10px;
     position: absolute;
@@ -47,12 +61,12 @@ input[type="submit"] {
     
 }
 
-a {
+.images_link > a, .advanced_link > a {
     color: #757575;
-
+     
 }
 
-/* Images Search page style */
+/* Images Search page styles */
 
 .images_title {
     color: #4285f4;
@@ -65,7 +79,7 @@ a {
 
 }
 
-/* Advanced Search page style */
+/* Advanced Search page styles */
 
 .small_google_logo {
     padding: 15px 10px;

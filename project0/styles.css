@@ -4,16 +4,6 @@
     margin-top: 250px;
 }
 
-.images_title {
-    color: #4285f4;
-    font: 16px arial, sans-serif;
-    position: relative;
-    left: 105px;
-    top: -20px;
-    white-space: nowrap;
-    text-align: center;
-
-}
 
 form {
     text-align: center; 
@@ -59,6 +49,19 @@ a {
 
 }
 
+/* Images Search page style */
+
+.images_title {
+    color: #4285f4;
+    font: 16px arial, sans-serif;
+    position: relative;
+    left: 105px;
+    top: -20px;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
 /* Advanced Search page style */
 
 .small_google_logo {
@@ -91,11 +94,11 @@ a {
 
 .adv_forms > input {
     width: 400px;
-    height: 15px;
     border-radius: 1px;
     font-size: 13px;
     text-align: left;
     border-top: 1px solid #c0c0c0;
+
 }
 
 

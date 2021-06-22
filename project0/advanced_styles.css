@@ -1,52 +1,92 @@
 /* Advanced Search page styles */
 
-.small_google_logo {
-    padding: 15px 10px;
+body {
+    border: 2px solid red;
+    margin: 1%;
+
 }
 
-.adv_search_text {
+.small_google_logo {
+    padding: 10px;
+}
+
+.adv_search_title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #d93025;
     margin: 25px 35px;
+
+}
+
+.adv {
+    border: 2px solid blue;
+    margin: 2%;
+    width: 70%;
+    padding-top: 4%;
+    
 }
 
 .title_find {
+    margin: auto;
+    width: 50%;
+    margin-left: 1px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin: 100px 50px 10px;
+    
+}
+
+.adv_inputs {
+    border: 1px solid green;
+    width: 100%;
+    padding-top: 10px;
+    
+}
+
+.adv_forms {
+    padding-top: 20px;
 }
 
 .adv_forms > label {
+    width: 20%;
     float: left;
     text-align: left;
-    width: 16%;
-    color: #222;
-    font-size: 15px;
+    color: #222 ;
+    font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 13px 0 0 50px;
+    
     
 }
 
 .adv_forms > input {
-    width: 400px;
-    border-radius: 1px;
-    font-size: 13px;
-    text-align: left;
+    width: 65%;
+    height: 25px;
+    border: 1px solid #d9d9d9 ;
     border-top: 1px solid #c0c0c0;
-
+    border-radius: 2px;
+    text-align: left;
+    font-size: 13px;
+    padding: 1px 8px;
 }
 
-.adv_seach_button > input{
+.adv_seach_button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 13%;
+    flex-wrap: wrap;
+}
+
+.adv_seach_button > input {
+    box-shadow: none;
+    border-radius: 2px;
+    border: 1px solid #3079ed;
     background-color: rgb(9, 137, 241);
-    height:36px;
-    width:150px;
+    height: 32px;
+    width: 130px;
     color: white;
     font-size: 13px;
-    margin-top: 25px;
-    margin-left: 350px;
-     
+
 }
+
 
 .back_link {
     padding: 10px;

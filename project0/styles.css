@@ -4,7 +4,7 @@
     width: 70%;
     padding: 10px;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 15%;
     
 }
 
@@ -15,7 +15,7 @@
 }
 
 .search_input {
-    width: 100%;
+    width: 80%;
     margin: auto;
 
 }
@@ -34,8 +34,9 @@
 }
 
 .buttons {
-    padding: 15px;
-    margin-left: 25%;
+    width: 50%;
+    padding: 15px 0 15px 250px;
+    margin: auto;
     
 }
 
@@ -47,20 +48,25 @@
     font-size: 14px;
     width: 130px;
     height: 35px;
+    margin-right: 6px;
 
 }
 
 
+
 /* Links to Images and Advanced Search links styles */
 
-.top_right_links, .back_link > a {
+.top_right_links {
     padding: 20px;
     margin: 10px;
     position: absolute;
     right: 8px;
     top: 8px;
-    color: #757575;
     
+}
+
+.images_link > a, .advanced_link > a, .back_link > a {
+    color: #757575;
 }
 
 
@@ -77,3 +83,20 @@
     text-align: center;
 
 }
+
+.buttons > input[value="Google Images"] {
+    width: 25%;
+    margin-left: 13%;
+    flex-wrap: wrap;
+}   
+
+.back_link {
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    text-decoration: underline;
+}
+
+

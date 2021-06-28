@@ -67,6 +67,7 @@
 
 .images_link > a, .advanced_link > a, .back_link > a {
     color: #757575;
+
 }
 
 
@@ -88,6 +89,7 @@
     width: 25%;
     margin-left: 13%;
     flex-wrap: wrap;
+
 }   
 
 .back_link {
@@ -97,6 +99,5 @@
     right: 8px;
     top: 8px;
     text-decoration: underline;
+
 }
-
-

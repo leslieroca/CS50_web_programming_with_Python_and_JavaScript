@@ -34,8 +34,9 @@
 }
 
 .buttons {
-    width: 50%;
-    padding: 15px 0 15px 250px;
+    display: block;
+    width: 295px;
+    padding-top: 18px;
     margin: auto;
     
 }
@@ -48,7 +49,7 @@
     font-size: 14px;
     width: 130px;
     height: 35px;
-    margin-right: 6px;
+    margin-left: 10px;
 
 }
 
@@ -57,7 +58,7 @@
 /* Links to Images and Advanced Search links styles */
 
 .top_right_links {
-    padding: 20px;
+    padding: 25px;
     margin: 10px;
     position: absolute;
     right: 8px;
@@ -86,9 +87,9 @@
 }
 
 .buttons > input[value="Google Images"] {
-    width: 25%;
-    margin-left: 13%;
-    flex-wrap: wrap;
+    width: 130px;
+    margin-left: 80px;
+    flex-wrap: wrap;s
 
 }   
 

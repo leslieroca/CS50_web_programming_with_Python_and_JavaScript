@@ -5,8 +5,10 @@ from django.shortcuts import render
 def index(request):
     return render(request, "hello/index.html") 
 
-def greet(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}!")
-
 def leslie(request):
     return HttpResponse("Hello Leslie!")
+ 
+ def greet(request, name):
+    return render(request, "hello/greet.htm", {
+        "name": name.capitalize()
+    })

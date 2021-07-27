@@ -8,7 +8,7 @@ def index(request):
 def leslie(request):
     return HttpResponse("Hello Leslie!")
  
- def greet(request, name):
+def greet(request, name):
     return render(request, "hello/greet.htm", {
         "name": name.capitalize()
     })

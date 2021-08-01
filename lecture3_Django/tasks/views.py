@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 tasks = ["foo", "bar", "baz"]
 
+# Create froms using Django way
 class NewTaskForm(forms.Form):
     task = forms.CharField(label="New Task")
     priority = forms.IntegerField(label="Priority", min_value=1, max_value=10)

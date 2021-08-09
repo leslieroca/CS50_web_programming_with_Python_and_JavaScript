@@ -22,7 +22,7 @@ def add(request):
         form = NewTaskForm(request.POST)
         if form.is_valid():
             task = form.cleaned_data["task"]
-            tasks.append(task)
+            request.session["tasks"] += [task]
             # Get redirected to the Tasks page after submit a task.
             return HttpResponseRedirect(reverse("tasks:index"))
         else:

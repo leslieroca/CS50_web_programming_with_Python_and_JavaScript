@@ -3,7 +3,6 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-tasks = []
 
 # Create froms using Django way
 class NewTaskForm(forms.Form):
@@ -12,8 +11,11 @@ class NewTaskForm(forms.Form):
 
 # Create your views here.
 def index(request):
+    if "tasks" not in request.secction:
+        request.secction["tasks"] = []
+         
     return render(request, "tasks/index.html", {
-        "tasks": tasks
+        "tasks": request.secction["tasks"]
     })
 
 def add(request):
@@ -29,7 +31,7 @@ def add(request):
                 "form": form
             })
 
-    # If request methos is "GET"
+    # If request methos is not "POST"
     return render(request, "tasks/add.html", {
         "form": NewTaskForm()
     })

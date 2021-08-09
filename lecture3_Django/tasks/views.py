@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-tasks = ["foo", "bar", "baz"]
+tasks = []
 
 # Create froms using Django way
 class NewTaskForm(forms.Form):
